@@ -586,6 +586,11 @@ html body #main-outlet {
 
 .user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready .active.json-editor-btn-add, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list .active.json-editor-btn-add, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready button.active, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list button.active {
   border-radius: 12px;
+}
+
+.user-menu.revamped .menu-tabs-container {
+	border: none !important;
   padding-right: 5px;
   padding-left: 5px;
+
 }
