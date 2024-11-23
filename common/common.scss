@@ -585,7 +585,7 @@ html body #main-outlet {
 }
 
 .user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready .active.json-editor-btn-add, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list .active.json-editor-btn-add, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready button.active, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list button.active {
-  border-radius: 12px;
+  border-radius: 12px !important;
 }
 
 .user-menu.revamped .menu-tabs-container {
@@ -593,4 +593,30 @@ html body #main-outlet {
   padding-right: 5px;
   padding-left: 5px;
 
+}
+
+.ember-view {
+  border-radius: 12px !important;
+}
+
+.user-main .about .details {
+	background: none !important;
+	border: none !important;
+}
+
+.user-content {
+	background: none !important;
+	border: none !important;
+}
+
+.ember-view active {
+  background-color: rgba(var(--tertiary-hover-rgb), 0.25);
+}
+
+.user-navigation .nav-pills > li a, .user-navigation .nav-pills > li button {
+	border-radius: 20px;
+}
+
+.user-navigation .nav-pills > li a active, .user-navigation .nav-pills > li button active {
+	border-radius: 20px;
 }
