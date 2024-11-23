@@ -578,6 +578,8 @@ html body #main-outlet {
 }
 
 #navigation-bar {
-  background-color: rgba(var(--secondary), 0.25);
+  background-color: rgba(var(--secondary-rgb), 0.25);
   border-radius: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
