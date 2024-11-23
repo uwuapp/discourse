@@ -609,14 +609,6 @@ html body #main-outlet {
 	border: none !important;
 }
 
-.ember-view active {
-  background-color: rgba(var(--tertiary-hover-rgb), 0.25);
-}
-
-.user-navigation .nav-pills > li a, .user-navigation .nav-pills > li button {
-	border-radius: 20px;
-}
-
-.user-navigation .nav-pills > li a active, .user-navigation .nav-pills > li button active {
-	border-radius: 20px;
+.active {
+  background-color: rgba(var(--tertiary-hover-rgb), 0.25) !important;
 }
