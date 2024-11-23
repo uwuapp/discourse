@@ -611,4 +611,13 @@ html body #main-outlet {
 
 .user-navigation .nav-pills > li a, .user-navigation .nav-pills > li button {
 	border-radius: 20px;
+  border: none !important;
+}
+
+.user-menu-tab {
+  border-radius: 20px !important;
+}
+
+.user-menu-tab active {
+  background-color: rgba(var(--tertiary-hover-rgb), 0.5);
 }
