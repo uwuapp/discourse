@@ -609,6 +609,6 @@ html body #main-outlet {
 	border: none !important;
 }
 
-.active {
-  background-color: rgba(var(--tertiary-hover-rgb), 0.25) !important;
+.user-navigation .nav-pills > li a, .user-navigation .nav-pills > li button {
+	border-radius: 20px;
 }
