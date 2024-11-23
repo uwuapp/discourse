@@ -584,8 +584,8 @@ html body #main-outlet {
   padding-left: 10px;
 }
 
-.top-tabs .tabs-list a {
+.user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready .active.json-editor-btn-add, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list .active.json-editor-btn-add, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready button.active, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list button.active {
   border-radius: 12px;
-  background-color: rgba(var(--tertiary-rgb), 0.5);
-  max-width: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
