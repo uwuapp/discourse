@@ -37,3 +37,7 @@ body.has-sidebar-page {
     rgba(var(--secondary), 1)
   );
 }
+
+.sidebar-section-link-wrapper .sidebar-section-link.active {
+	border-radius: 12px;
+}
