@@ -363,14 +363,14 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 1px solid rgba(var(--primary-rgb), 0.2);
+      border: 0px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       overflow: hidden;
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb), 0.1);
+        border: 0px solid rgba(var(--primary-rgb), 0.1);
         .discourse-tag {
           opacity: 0.75;
         }
@@ -582,4 +582,10 @@ html body #main-outlet {
   border-radius: 12px;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.top-tabs .tabs-list a {
+  border-radius: 12px;
+  background-color: rgba(var(--tertiary-rgb), 0.5);
+  max-width: 5px;
 }
