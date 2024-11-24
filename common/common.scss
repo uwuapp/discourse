@@ -726,3 +726,8 @@ html body #main-outlet {
 .nav-pills > li > a, .nav-pills > li button {
 	background-color: rgba(var(--secondary-rgb), 0.25);
 }
+
+.fk-d-tooltip__trigger {
+  border-radius: 8px;
+  margin-left: 5px;
+}
