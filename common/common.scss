@@ -711,10 +711,12 @@ html body #main-outlet {
 
 .nav-pills > li a.active, .nav-pills > li button.active {
 	color: none !important;
-	background: #210155 !important;
+	background: rgba(var(--tertiary-hover-rgb), 0.5) !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 .user-nav__activity.active {
   border: none !important;
+  box-shadow: none !important;
 }
