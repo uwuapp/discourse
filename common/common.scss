@@ -666,10 +666,15 @@ html body #main-outlet {
 	border-radius: 12px;
 }
 
-.primary {
-  border: none;
-}
-
 .new-user-wrapper .user-navigation {
 	border: none;
+}
+
+.user-main .about .secondary {
+	border: none;
+}
+
+#collapsed-info-panel div {
+  background-color: rgba(var(--secondary-rgb), 0.25);
+  border-radius: 8px;
 }
