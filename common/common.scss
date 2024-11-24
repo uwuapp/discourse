@@ -623,6 +623,15 @@ html body #main-outlet {
   border-radius: 12px !important;
 }
 
-.active a {
+#navigation-bar li {
   border: none !important;
+}
+
+.select-kit {
+  border-radius: 12px !important;
+}
+
+.list-controls .combo-box .combo-box-header {
+  border: none !important;
+  border-radius: 12px !important;
 }
