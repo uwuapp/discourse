@@ -693,7 +693,7 @@ html body #main-outlet {
 }
 
 .new-user-wrapper .user-navigation .nav-pills li a .active {
-  background-color: rgba(var(--primary-rgb), 0.25);
+  background-color: rgba(var(--d-selected), 0.25);
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 10px;
@@ -724,4 +724,8 @@ html body #main-outlet {
 .nav-pills > li a.active::after, .nav-pills > li button.active::after {
   display: none !important;
 	background: none;
+}
+
+.user-navigation-secondary {
+  margin-top: 5px;
 }
