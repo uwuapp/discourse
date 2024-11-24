@@ -595,10 +595,6 @@ html body #main-outlet {
 
 }
 
-.ember-view {
-  border-radius: 12px !important;
-}
-
 .user-main .about .details {
 	background: none !important;
 	border: none !important;
@@ -621,4 +617,8 @@ html body #main-outlet {
 
 .user-menu-tab active {
   background-color: rgba(var(--tertiary-hover-rgb), 0.5);
+}
+
+.user-menu.revamped #quick-access-profile li > * {
+  border-radius: 12px !important;
 }
