@@ -701,10 +701,15 @@ html body #main-outlet {
   border-radius: 12px;
 }
 
-.badge-contents {
+.badge-card {
   border-radius: 12px;
 }
 
 .active {
   border:none !important;
+}
+
+.nav-pills > li a.active, .nav-pills > li button.active {
+	color: var(--d-nav-color--active);
+	background: #ffff !important;
 }
