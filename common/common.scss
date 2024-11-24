@@ -676,5 +676,9 @@ html body #main-outlet {
 
 #collapsed-info-panel div {
   background-color: rgba(var(--secondary-rgb), 0.25);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 8px;
 }
