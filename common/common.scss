@@ -711,5 +711,6 @@ html body #main-outlet {
 
 .nav-pills > li a.active, .nav-pills > li button.active {
 	color: var(--d-nav-color--active);
-	background: #ffff !important;
+	background: rgba(var(--tertiary-very-low), 0.5) !important;
+  border: none !important;
 }
