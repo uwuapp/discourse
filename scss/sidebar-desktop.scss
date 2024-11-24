@@ -42,6 +42,6 @@ body.has-sidebar-page {
 	border-radius: 12px !important;
 }
 
-.sidebar-section-header-button:hover {
-  background: none;
+.discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .btn.dropdown-select-box-header:hover, .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .d-modal.json-schema-editor-modal .je-ready .dropdown-select-box-header.json-editor-btn-add:hover, .d-modal.json-schema-editor-modal .je-ready .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .dropdown-select-box-header.json-editor-btn-add:hover, .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .d-modal.json-schema-editor-modal .je-ready button.dropdown-select-box-header:hover, .d-modal.json-schema-editor-modal .je-ready .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper button.dropdown-select-box-header:hover, .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .sidebar-section-header-button:hover {
+	background: none !important;
 }
