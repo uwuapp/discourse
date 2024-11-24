@@ -682,3 +682,12 @@ html body #main-outlet {
   padding-left: 10px;
   border-radius: 8px;
 }
+
+.new-user-wrapper .user-navigation .nav-pills li a {
+  background-color: rgba(var(--secondary-rgb), 0.25);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+}
