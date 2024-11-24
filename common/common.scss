@@ -577,13 +577,6 @@ html body #main-outlet {
   padding-left: 14px;
 }
 
-#navigation-bar {
-  background-color: rgba(var(--secondary-rgb), 0.25);
-  border-radius: 12px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready .active.json-editor-btn-add, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list .active.json-editor-btn-add, .user-menu.revamped .tabs-list .d-modal.json-schema-editor-modal .je-ready button.active, .d-modal.json-schema-editor-modal .je-ready .user-menu.revamped .tabs-list button.active {
   border-radius: 12px !important;
 }
@@ -728,4 +721,8 @@ html body #main-outlet {
 
 .user-navigation-secondary {
   margin-top: 5px;
+}
+
+.nav-pills > li > a, .nav-pills > li button {
+	background-color: rgba(var(--secondary-rgb), 0.25);
 }
