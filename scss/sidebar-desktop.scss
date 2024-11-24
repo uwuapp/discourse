@@ -39,5 +39,9 @@ body.has-sidebar-page {
 }
 
 .sidebar-section-link-wrapper .sidebar-section-link.active {
-	border-radius: 12px;
+	border-radius: 12px !important;
+}
+
+.sidebar-section-header-button:hover {
+  background: none;
 }
