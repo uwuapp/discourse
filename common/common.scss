@@ -710,13 +710,18 @@ html body #main-outlet {
 }
 
 .nav-pills > li a.active, .nav-pills > li button.active {
-	color: #fff !important;
 	background: rgba(var(--primary-rgb), 0.5) !important;
   border: none !important;
   box-shadow: none !important;
+  
 }
 
 .user-nav__activity.active {
   border: none !important;
   box-shadow: none;
+}
+
+.nav-pills > li a.active::after, .nav-pills > li button.active::after {
+  display: none !important;
+	background: none;
 }
