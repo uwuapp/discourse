@@ -680,7 +680,7 @@ html body #main-outlet {
   padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .new-user-wrapper .user-navigation .nav-pills li a {
@@ -689,7 +689,7 @@ html body #main-outlet {
   padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .new-user-wrapper .user-navigation .nav-pills li a .active {
@@ -698,5 +698,13 @@ html body #main-outlet {
   padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
+}
+
+.badge-contents {
+  border-radius: 12px;
+}
+
+.active {
+  border:none !important;
 }
