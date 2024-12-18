@@ -375,7 +375,7 @@ html body #main-outlet {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px rgba(var(--primary-rgb), 0.3) solid;
+          border: 1px solid rgba(var(--primary-rgb), 0.3);
           .discourse-tag {
             opacity: 1;
           }
