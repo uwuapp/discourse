@@ -744,6 +744,11 @@ html body #main-outlet {
   padding: 16px;
   margin-top: 16px;
 }
-.topic-avatar .clearfix {
+
+.topic-avatar {
+  border: none !important;
+}
+
+.clearfix {
   border: none !important;
 }
