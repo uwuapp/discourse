@@ -363,7 +363,7 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 0px solid rgba(var(--primary-rgb), 0.2);
+      border: 1px #3E3E3E solid;
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
@@ -647,7 +647,7 @@ html body #main-outlet {
 }
 
 .topic-list .topic-list-header .topic-list-data, .topic-list .topic-list-item .topic-list-data {
-	border-radius: 8px;
+	border-radius: 16px;
   margin-bottom: 5px;
 }
 
@@ -771,5 +771,9 @@ html body #main-outlet {
 }
 
 .topic-list-item {
+  border-radius: 16px !important;
+}
+
+.blockquote {
   border-radius: 16px !important;
 }
