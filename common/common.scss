@@ -724,7 +724,7 @@ html body #main-outlet {
 }
 
 .nav-pills > li > a, .nav-pills > li button {
-	background-color: rgba(var(--secondary-rgb), 0.25);
+	background-color: rgba(var(--secondary), 0.25);
 }
 
 .fk-d-tooltip__trigger {
@@ -733,5 +733,5 @@ html body #main-outlet {
 }
 
 .new-user-content-wrapper {
-	background-color: rgba(var(--secondary-rgb), 0.25);
+	background-color: rgba(var(--secondary), 0.25);
 }
