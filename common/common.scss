@@ -375,7 +375,7 @@ html body #main-outlet {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px solid rgba(var(--primary-rgb), 0.3);
+          border: 1px solid var(--tertiary);
           .discourse-tag {
             opacity: 1;
           }
@@ -384,7 +384,7 @@ html body #main-outlet {
       &:hover {
         background-color: var(--secondary);
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
-        border: 1px solid rgba(var(--primary-rgb), 0.3);
+        border: 1px solid var(--tertiary);
         a.title:not(.badge-notification),
         a.topic-excerpt {
           color: var(--primary) !important;
