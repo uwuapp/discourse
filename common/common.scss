@@ -695,7 +695,7 @@ html body #main-outlet {
 }
 
 .active {
-  border: 1px rgba(var(--primary-rgb), 0.35)) solid !important;
+  border: 1px solid rgba(var(--primary-rgb), 0.35)) !important;
 }
 
 .nav-pills > li a.active, .nav-pills > li button.active {
