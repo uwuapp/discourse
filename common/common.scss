@@ -831,3 +831,14 @@ html body #main-outlet {
   border-bottom: 1px #3E3E3E solid !important;
 }
 
+.c-list {
+  background-color: var(--secondary);
+  border-bottom-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom: 1px #3E3E3E solid !important;
+  border-right: 1px #3E3E3E solid !important;
+  border-left: 1px #3E3E3E solid !important;
+  width: 100% !important;
+}
