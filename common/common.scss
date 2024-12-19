@@ -775,5 +775,14 @@ html body #main-outlet {
 }
 .chat-channel {
   background-color: var(--secondary);
-  border-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-bottom: 1px #3E3E3E solid !important;
+  border-right: 1px #3E3E3E solid !important;
+  border-left: 1px #3E3E3E solid !important;
+}
+.c-navbar {
+  border-top: 1px #3E3E3E solid !important;
+  border-right: 1px #3E3E3E solid !important;
+  border-left: 1px #3E3E3E solid !important;
 }
