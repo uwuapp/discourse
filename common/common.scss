@@ -789,10 +789,10 @@ html body #main-outlet {
   border-left: 1px #3E3E3E solid !important;
 }
 .chat-message-actions {
-  border-radius: 16px !important;
+  border-radius: 16px;
 }
 
-.chat-message-reaction {
+.chat-message-actions button {
   border-radius: 16px !important;
   border: none !important;
 }
