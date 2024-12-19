@@ -777,11 +777,13 @@ html body #main-outlet {
   background-color: var(--secondary);
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
   border-bottom: 1px #3E3E3E solid !important;
   border-right: 1px #3E3E3E solid !important;
   border-left: 1px #3E3E3E solid !important;
 }
-.c-navbar {
+.c-navbar-container {
   border-top: 1px #3E3E3E solid !important;
   border-right: 1px #3E3E3E solid !important;
   border-left: 1px #3E3E3E solid !important;
