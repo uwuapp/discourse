@@ -788,3 +788,11 @@ html body #main-outlet {
   border-right: 1px #3E3E3E solid !important;
   border-left: 1px #3E3E3E solid !important;
 }
+.chat-message-actions {
+  border-radius: 16px;
+}
+
+.chat-message-reaction {
+  border-radius: 16px !important;
+  border: none !important;
+}
