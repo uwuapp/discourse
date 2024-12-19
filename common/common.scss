@@ -621,16 +621,16 @@ html body #main-outlet {
 }
 
 .select-kit {
-  border-radius: 8px !important;
+  border-radius: 16px !important;
 }
 
 .list-controls .combo-box .combo-box-header {
   border: none !important;
-  border-radius: 8px !important;
+  border-radius: 16px !important;
 }
 
 .select-kit-body {
-  border-radius: 8px !important;
+  border-radius: 16px !important;
 }
 
 .select-kit.combo-box .select-kit-row {
@@ -639,7 +639,7 @@ html body #main-outlet {
   margin-right: 5px;
   margin-left: 5px;
 	min-height: 1px;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 .topic-list .topic-list-header .topic-list-data, .topic-list .topic-list-item .topic-list-data {
@@ -805,4 +805,7 @@ html body #main-outlet {
 .chat-message-actions .more-buttons.dropdown-select-box .select-kit-header {
   border-radius: 16px !important;
   border: none !important;
+}
+.select-kit .select-kit-row.is-highlighted {
+	border-radius: 16px;
 }
