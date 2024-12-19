@@ -694,10 +694,6 @@ html body #main-outlet {
   border-radius: 16px;
 }
 
-.active {
-  border:none !important;
-}
-
 .nav-pills > li a.active, .nav-pills > li button.active {
 	background: rgba(var(--primary-rgb), 0.5) !important;
   border: none !important;
