@@ -48,7 +48,10 @@ body.has-sidebar-page {
 
 .sidebar-section-link-wrapper .sidebar-section-link, .sidebar-section-link-wrapper .sidebar-section-link {
 	border-radius: 12px;
-  border-bottom: 1px #3E3E3E solid !important;
+}
+
+.sidebar-section-link-wrapper:hover .sidebar-section-link:hover, .sidebar-section-link-wrapper:hover .sidebar-section-link:hover {
+  border: 1px #3E3E3E solid !important;
 }
 
 .sidebar-wrapper {
