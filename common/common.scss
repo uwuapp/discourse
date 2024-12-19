@@ -808,6 +808,8 @@ html body #main-outlet {
 }
 .select-kit .select-kit-row.is-highlighted {
 	border-radius: 16px;
-  padding-right: 8px;
-  padding-left: 8px;
+}
+.chat-composer__inner-container {
+  border-radius: 16px;
+  border: 1px #3E3E3E solid !important;
 }
